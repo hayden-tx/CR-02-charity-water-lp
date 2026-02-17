@@ -89,10 +89,9 @@ section {
 /* Hero Section Styles */
 .hero {
   position: relative;
-  background-image: url('img/hero.jpg'); /* swap to your Canva hero image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+ .hero {
+  background-image: url("/workspaces/CR-02-charity-water-lp/img/gather-funds-to-provide-clean-water-alleviate-thirst-embodying-social-responsibility-gather-funds-to-provide-clean-water-368654163.webp");
+}
 
   color: #fff;
   text-align: center;
