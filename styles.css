@@ -87,10 +87,27 @@ section {
 }
 
 /* Hero Section Styles */
+/* Hero Section Styles */
 .hero {
   position: relative;
- .hero {
-  background-image: url("/workspaces/CR-02-charity-water-lp/img/gather-funds-to-provide-clean-water-alleviate-thirst-embodying-social-responsibility-gather-funds-to-provide-clean-water-368654163.webp");
+
+  /* ✅ Use a RELATIVE path (NOT /workspaces/...) */
+  background-image: url("img/gather-funds-to-provide-clean-water-alleviate-thirst-embodying-social-responsibility-gather-funds-to-provide-clean-water-368654163.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #fff;
+  text-align: center;
+  padding: 72px 20px;
+  border-radius: 0 0 16px 16px;
+
+  /* overlay tint for readability */
+  background-blend-mode: darken;
+  background-color: rgba(46, 157, 247, 0.45);
+}
+
 }
 
   color: #fff;
