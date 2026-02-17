@@ -1,47 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clean Water Changes Everything | charity: water</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <!-- Top bar with logo -->
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- Put your charity: water logo file in /img -->
+      <img class="logo" src="img/charity-water-logo.png" alt="charity: water logo" />
+      <a class="header-link" href="#donate">Donate</a>
+    </div>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <h1>Clean Water Changes Everything</h1>
+      <p class="hero-sub">Helping Communities Thrive<br />One Student at a Time</p>
+      <p class="hero-meta">Designed by Hayden Victoria · February 2026</p>
+      <a class="donate-button" href="#donate">Donate Now 💛</a>
+    </div>
+  </section>
+
+  <!-- DONATION CARD / STAT BLOCK -->
+  <section class="section-card">
+    <div class="card-grid">
+      <div class="card-left">
+        <!-- Replace with your Canva image (students walking) -->
+        <img class="card-image" src="img/students.jpg" alt="College students walking on campus" />
+      </div>
+
+      <div class="card-right">
+        <p class="pill-title">Donate to Provide Clean Water 💧</p>
+        <h2 class="big-emphasis">Millions of people<br />still don’t have<br />access to clean<br /><span class="accent-word">drinking water.</span></h2>
+
+        <p class="price">$599</p>
+        <p class="supporting">But college students like you can<br />help change that.</p>
+
+        <a class="donate-button" href="#donate">Donate to Provide Clean Water</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GLOBAL WATER CRISIS -->
+  <section class="story">
+    <h2>The Global Water Crisis Is Real</h2>
+    <p class="lead">
+      Over 700 million people worldwide lack access to clean water.
+      Without it, families face serious health risks, children miss school,
+      and entire communities struggle to grow.
+    </p>
+
+    <div class="two-text">
+      <div>
+        <h3>Why This Matters to Us</h3>
         <p>
-         
-    </section>
+          As students, we care about equity, opportunity, and creating real impact.
+          Clean water isn’t just a basic need — it’s the foundation for education,
+          health, and economic growth. Even a small donation can create real change.
+        </p>
+      </div>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+      <div class="image-wrap">
+        <!-- Replace with your Canva image (library/study / laptop) -->
+        <img class="impact-image" src="img/students-studying.jpg" alt="Students studying" />
+      </div>
+    </div>
+  </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <!-- HOW CW MAKES A DIFFERENCE -->
+  <section class="section-card">
+    <h2 class="center">How charity: water Makes a Difference</h2>
+
+    <div class="cards-3">
+      <article class="mini-card">
+        <h3>100% funded</h3>
+        <p>100% of public donations fund clean water projects.</p>
+      </article>
+
+      <article class="mini-card">
+        <h3>Transparent</h3>
+        <p>Projects are transparent and trackable.</p>
+      </article>
+
+      <article class="mini-card">
+        <h3>Sustainable</h3>
+        <p>Communities receive long-term, sustainable solutions.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- IMPACT STARTS SMALL -->
+  <section class="section-card">
+    <h2 class="center">Your Impact Starts Small — and Grows Fast</h2>
+    <p class="center lead">
+      A donation today can help provide families with clean, safe water for years to come.
+      One choice. One action. A lifetime of change.
+    </p>
+  </section>
+
+  <!-- DONATE CTA -->
+  <section class="call-to-action" id="donate">
+    <h2>Ready to Make an Impact?</h2>
+    <p class="lead">
+      Join thousands of students using their voice — and their dollars — for good.
+    </p>
+
+    <a class="donate-button" href="https://www.charitywater.org/" target="_blank" rel="noopener">
+      Donate Now 💛
+    </a>
+  </section>
+
+  <!-- TRANSPARENCY FOOTER SECTION -->
+  <section class="section-card">
+    <h2 class="center">Transparency You Can Trust</h2>
+    <p class="center lead">
+      Charity: water is a nonprofit dedicated to ending the global water crisis
+      through accountability, transparency, and real-world impact.
+    </p>
+  </section>
+
+  <footer class="site-footer">
+    <p>Built with HTML + CSS for a class project.</p>
+  </footer>
 </body>
 </html>
